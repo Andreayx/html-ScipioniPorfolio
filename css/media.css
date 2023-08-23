@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+  .my-flex {
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    padding: 5rem;
+    justify-content: center; /* Allinea i figli al centro orizzontalmente */
+    align-items: center; /* Allinea i figli al centro verticalmente */
+  }
+}

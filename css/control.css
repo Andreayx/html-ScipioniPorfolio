@@ -1,0 +1,112 @@
+/*
+
+  Project - Personal Porfolio 
+   
+  Color: #0b2143; 
+  #6d7a8e
+  3c4d69
+  #233756
+
+
+
+*/
+
+body {
+  font-family: sans-serif;
+}
+.my-navbar {
+}
+.my-class-text {
+  color: #e7e9ec;
+}
+.serif {
+  font-family: serif;
+}
+.my-hero {
+  min-height: 100vh;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/backgroundHero.avif);
+
+  background-size: cover;
+}
+.my-about-me {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../img/blueBackground.avif);
+  background-size: cover;
+
+  min-height: 100vh;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.my-projects {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../img/blueBackground.avif);
+  background-size: cover;
+  min-height: 100vh;
+
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.my-contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../img/blueBackground.avif);
+  min-height: 100vh;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-size: cover;
+}
+
+.my-blueNow {
+  background-color: rgba(0, 0, 12, 0.7);
+}
+
+.text-align-center {
+  text-align: center;
+  font-size: 300%;
+}
+.img-format {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.underline {
+  color: #0b2143;
+}
+.margin-bottom {
+  margin-bottom: 2px;
+}
+.navbar-brand {
+  margin-right: auto; /* Aggiunto per spostare a sinistra */
+}
+.my-flex {
+  flex-direction: row;
+  gap: 5%;
+  display: flex;
+  justify-content: center; /* Allinea i figli al centro orizzontalmente */
+  align-items: center; /* Allinea i figli al centro verticalmente */
+}
+.img-control {
+  height: 3rem;
+  width: 4rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+.underline-control {
+  text-decoration: underline;
+}
